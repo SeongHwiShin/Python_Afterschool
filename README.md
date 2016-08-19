@@ -1,7 +1,7 @@
 # PythonProject
 
 
-Korea Digital Media high school 2nd after school python class
+Korea Digital Media high school 2nd-year grand student after school python class
 
 1차시 2016.08.19
 
