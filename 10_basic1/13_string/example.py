@@ -42,3 +42,54 @@ print(s)
 
 s = "I ate {num} {what}".format(num=5, what="kiwi")
 print(s)
+
+#문자열 함수
+print(dir(s))
+
+print(s.upper)
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+
+print(s.count('i'))
+
+#문자열 결합
+print(" ".join(a))
+
+#문자열 결합
+print(a.split())
+
+#문자열은 순서가 있다 -> indexing, slicing
+print(a[0], a[2])
+
+#제일 마지막 문자를 출력해보자
+print(a[len(a)-1])
+print(a[-1])
+
+#slicing
+print("012345678901234567890")
+
+#Love를 추철
+print(a[2:6])
+print(a[2:])
+print(a[:])
+
+#start:end-1:step
+print(a[2::2])
+
+#I Love KISUM을 거꾸로 찍으려면
+print(a[::-1])
+
+#학번을 slicing해서 기수, 학년, 반, 번호로 잘라내기
+s="142619"
+
+gisu =(s[0:2])
+grade =(s[2:3])
+ban =(s[3:4])
+number =int(s[-2:])
+
+print("%s기 %s학년 %s반 %s번" %(gisu,grade,ban,number))
+
+#문자열 내용은 변경 불가
+#s[3] = "4"
+

@@ -58,4 +58,15 @@ def countdown(n):
         time.sleep(1)
         countdown(n-1)
 
-countdown(10)
+# countdown(10)
+
+# 람다 함수 : 이름이 없는 함수
+# 형식) Lambda 입력값 : 표현식 -> 표현식 결과가 리턴됨
+
+func = lambda x, y: x*y
+print(func(3,4))
+
+print((lambda x, y : x*y)(3,4))
+
+print((lambda : 'no input')())
+
