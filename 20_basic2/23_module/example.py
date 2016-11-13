@@ -64,3 +64,9 @@ soup = BeautifulSoup(html, "html.parser")
 
 print('*' * 50)
 print(soup.prettify())
+
+
+# 웹 브라우자 모듈
+import webbrowser
+
+webbrowser.open('http://www.python.org')
